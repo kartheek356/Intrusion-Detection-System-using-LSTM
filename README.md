@@ -2,7 +2,7 @@
 
 Welcome! This project builds a high-performance Intrusion Detection System (IDS) for IoT environments using deep learning (LSTM-RNN). It processes cybersecurity attack data, detects threats in real time, and helps improve network defense systems.
 
-#**🚀 Project Architecture**
+# **🚀 Project Architecture**
 
 🔹 Data Preprocessing (Preprocessing.ipynb)
 Loads the UNSW-NB15 dataset with 49 features and 9 attack types.
@@ -30,8 +30,7 @@ Trained with categorical cross-entropy and Adam optimizer.
 
 Achieves 98% accuracy in detecting network intrusions.
 
-# **🛠 Tech Stack
-Libraries & Tools:**
+# **🛠 Tech Stack Libraries & Tools:**
 
 Python (NumPy, Pandas, Scikit-Learn)
 
@@ -41,10 +40,10 @@ Matplotlib / Seaborn
 
 imbalanced-learn (SMOTE)
 
-#**Dataset:
+# **Dataset:
 UNSW-NB15 dataset**
 
-#**🧠 Training Workflow** 
+# **🧠 Training Workflow** 
 Data Cleaning
 Remove irrelevant features and balance class distribution using SMOTE.
 
@@ -59,16 +58,16 @@ Confusion matrix
 
 Precision/Recall/F1 for each attack class
 
-**Optimization**
+# **Optimization**
 Used RFE + Binary Grey Wolf Optimizer for feature selection (optional extension).
 
-**📁 Project Structure**
+# **📁 Project Structure**
 Folder / File	Purpose
 Preprocessing.ipynb	Data loading, cleaning, encoding, scaling, and SMOTE
 LSTM-RNN-Model.ipynb	LSTM model architecture, training, and evaluation
 README.md	Project documentation
 
-**✅ Results & Performance**
+# **✅ Results & Performance**
 Balanced detection of 9 attack types using LSTM time-sequence modeling.
 
 Achieved 98% test accuracy, demonstrating strong generalization on unseen attack data.
