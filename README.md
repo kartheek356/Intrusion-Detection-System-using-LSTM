@@ -40,8 +40,8 @@ Matplotlib / Seaborn
 
 imbalanced-learn (SMOTE)
 
-# **Dataset:
-UNSW-NB15 dataset**
+# **Dataset:**
+UNSW-NB15 dataset
 
 # **🧠 Training Workflow** 
 Data Cleaning
